@@ -1,0 +1,40 @@
+body {
+    background: rgb(245, 226, 241);
+    font-family: 'Raleway', sans-serif;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    /* width - significa altura e weight seguinifica tamanho */
+}
+
+.foto-principal{
+width: 150px;
+ border: 5px solid  rgb(225, 198, 241);  /*nome dessa funcao chama shothand */
+ border-radius: 50%;
+ /*podendo ser escrito e posso ver por ai dessa maneira 
+ boder-width: 5px
+ boder-color: black
+ boder-style: groove
+ note que eu usei uma linha para simplificar tudo, mas pode aparecer por ai alguem que faça tudo por etapa que tbm é valido*/
+ 
+}
+
+h1{
+   margin-bottom: 0; 
+
+   font-family: 'PT Sans Narrow', sans-serif;
+   font-size: 40px;
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(68 67 67);
+    font-weight: 100;
+    letter-spacing: -1px
+    
+}
