@@ -3,6 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: rgb(32, 32, 32);
     font-weight: 600;
+    margin: 0px;
 }
 
 .container {
@@ -10,20 +11,25 @@ body {
     margin: 0 auto;
     /* width - significa altura e weight seguinifica tamanho */
 }
+.profile {
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 .foto-principal{
-width: 150px;
- border: 5px solid  rgb(225, 198, 241);  /*nome dessa funcao chama shothand */
- border-radius: 50%;
- /*podendo ser escrito e posso ver por ai dessa maneira 
- boder-width: 5px
- boder-color: black
- boder-style: groove
- note que eu usei uma linha para simplificar tudo, mas pode aparecer por ai alguem que faça tudo por etapa que tbm é valido*/
+    width: 160px;
+    border: 5px solid  rgb(225, 198, 241);  /*nome dessa funcao chama shothand */
+    border-radius: 50%;
+     /*podendo ser escrito e posso ver por ai dessa maneira 
+    boder-width: 5px
+    boder-color: black
+    boder-style: groove
+    note que eu usei uma linha para simplificar tudo, mas pode aparecer por ai alguem que faça tudo por etapa que tbm é valido*/
  
 }
 
 h1{
+   margin-top: 10px;
    margin-bottom: 0; 
 
    font-family: 'PT Sans Narrow', sans-serif;
@@ -37,4 +43,39 @@ h2{
     font-weight: 100;
     letter-spacing: -1px
     
+}
+h4{
+ margin-top: 0px; 
+ margin-bottom: 5px;
+ font-style: bold;
+}
+h5{
+ margin-top: 0px;
+ margin-bottom: 5px;
+ font-size: 15px;
+ font-family: system-ui;
+ font-style: italic;
+}
+
+.social-links { /*estou criando classes lá no HTML para depois vir aqui e mudar o layout dos grupos criados*/
+    text-decoration: none; /*essa tag serve para a retirada dos "anderlines que vem junto com as figuras"*/
+}
+.social-icons {
+    width: 30px;
+}
+.github {
+    margin: 0 15px 0 15px;
+}
+.jobs-list {
+  list-style: none;
+  padding-left: 20px;
+}
+.footer {
+  background-color: black;
+  margin-top: 40px;
+  color: white;
+  text-align: center;
+  padding: 10px 0 
+
+
 }
